@@ -1,0 +1,52 @@
+/*DEVELOPER: TRANG DANG, IS117-002, Spring 2021 */
+/* about me */
+.about_me{
+    padding: 20px 50px;
+}
+.about_me img{
+    float: right;
+    width: 50%;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+}
+.about_me p {
+    text-align: justify;
+}
+
+.progress-general{
+    width: 550px;
+    float: right;
+    padding-left: 2em;
+}
+
+.progress {
+    background-color: #141432;
+}
+.progress-bar{
+    background-color: #b0a1e7;
+    color: #141432;
+}
+
+
+.skill,.honors{
+    padding: 50px 50px 0 50px;
+    text-align: center;
+}
+
+.skill p {
+    text-align: justify;
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .name, .form-control, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

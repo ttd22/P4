@@ -1,0 +1,112 @@
+<!-- DEVELOPER: TRANG DANG, IS117002, Spring 2021 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knowledge Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../Images/logo.ico">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <link rel="shortcut icon" href="../Images/logo.ico">
+    <link href="../Stylesheet/main.css" rel="stylesheet">
+    <link href="../Stylesheet/knowledge_hub.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html"><img src="../Images/logo3.png" alt="logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="aboutme.html" id="navbardrop"
+                           data-toggle="dropdown">
+                            About
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="aboutme.html">About Me</a>
+                            <a class="dropdown-item" href="resume.html">Resume</a>
+                        </div>
+                    </li>
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="knowledge_hub.html">Knowledge Hub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid" id="objective">
+            <div class="knowledge_hub">
+                <br>
+                <h2>Knowledge Hub</h2>
+                <br>
+                <ul>
+                    <li><h5>Data Visualization: Effectively Using Matplotlib - Chris Moffitt</h5></li>
+                    <li><h5>Data Acquisition and Wrangling: Basics of SQL</h5></li>
+                </ul>
+                <br><br>
+            </div>
+        </div>
+        <div id="kh_1">
+            <br>
+            <img src="../Images/knowledge_hub_1.png" alt="kh1" id="kh_1_img" class="img-fluid">
+            <br><br>
+            <h3>Data Visualization</h3>
+            <h5>Effectively Using Matplotlib - Chris Moffitt</h5>
+            <p> The python visualization world can be a frustrating place for a new user. There are many different options and choosing the right one is a challenge. For example, even after 2 years, this article is one of the top posts that lead people to this site. In that article, I threw some shade at matplotlib and dismissed it during the analysis. <a href="https://pbpython.com/effective-matplotlib.html">Read more</a></p>
+
+
+        </div>
+        <div class="container-fluid" id="kh_2">
+            <img src="../Images/knowledge_hub_2.png" id="kh_2_img" alt="kh2" class="img-fluid">
+            <br>
+            <h3>Data Acquisition and Wrangling</h3>
+            <h5>Basics of SQL</h5>
+            <p>
+                As a data scientist, you deal with a lot of data. For small datasets, maybe you just store this information in a CSV file and load it into Pandas. However, this isn't really a scalable solution and won't do too well if you're constantly updating and inserting new data. You need a database; somewhere to hold your information that allows for easy inserting, updating, and reading.
+                <a href="https://www.jeremyjordan.me/sql/">Read more</a>
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid" id="space_kh"></div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Trang Dang, April 23 2021 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>

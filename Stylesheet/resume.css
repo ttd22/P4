@@ -1,0 +1,46 @@
+/*DEVELOPER: TRANG DANG, IS117-002, Spring 2021 */
+/* resume */
+.resume{
+    text-align: center;
+}
+
+.year_one p, .year_three p{
+    text-align: left;
+}
+.year_two p{
+    text-align: right;
+}
+
+.year_one img{
+    float: right;
+    width: 40%;
+}
+
+.year_three img{
+    float: right;
+    width: 40%;
+}
+
+.year_two img{
+    float: left;
+    width: 40%;
+}
+
+#objective, #my_journey{
+    padding: 50px 50px;
+}
+
+#objective p {
+    text-align: center;
+}
+
+#resume_content{
+    background-color: #b0a1e7;
+    padding: 50px 50px;
+}
+@media only screen and (max-width: 600px) {
+    .name, .form-control, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
